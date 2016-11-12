@@ -6,3 +6,6 @@ How is the staging area different from the working directory and the repository?
 
 	There may be several files needed for a single commit, but as each one is completed it can be moved in. Also other files may have been started but might not make sense for this commit, so those can be left out. 
 	
+How can you use the staging area to make sure you have one commit per logical change?
+	
+	After adding commits to the staging area, run 'git diff --staged' to see all of the changes together before committing

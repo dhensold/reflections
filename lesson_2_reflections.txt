@@ -21,3 +21,8 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 	All of the commits made on both branches since they diverged are retained. 
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	
+	automatic merges are much easier and faster in cases where the merging strategy is obvious. but auto-merges could occasionally choose wrong. 
+	it may be easier to understand the conflict when merging manually. lots of accident can happen when manually deleting code!

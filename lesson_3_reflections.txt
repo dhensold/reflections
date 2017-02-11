@@ -1,1 +1,3 @@
-
+When would you want to use a remote repository rather than keeping all your work local?
+  
+  A remote repository would be helpful if I was collaborating with other developers or if I simply wanted my repository to be accessible from multiple devices. 

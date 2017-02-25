@@ -1,3 +1,7 @@
 When would you want to use a remote repository rather than keeping all your work local?
   
   A remote repository would be helpful if I was collaborating with other developers or if I simply wanted my repository to be accessible from multiple devices. 
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+	I would probably try to use a cloud-based tool for me and my collaborators to work on at the same time. It would be much harder to manage because working offline on a repository probably wouldn't be possible. It would also be irritating if 2 people were trying to work on the exact same part of the code at the same time. 

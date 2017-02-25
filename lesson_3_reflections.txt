@@ -19,3 +19,7 @@ What is the benefit of having a copy of the last known state of the remote store
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 	I would probably try to use a cloud-based tool for me and my collaborators to work on at the same time. It would be much harder to manage because working offline on a repository probably wouldn't be possible. It would also be irritating if 2 people were trying to work on the exact same part of the code at the same time. 
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+	When I think my changes might break parts of the code which would prohibit others from working on it. However, working directly in the master reduces the instances of conflicts that need to be resolved later and possibly drive some rework, so simple changes should be made there. 

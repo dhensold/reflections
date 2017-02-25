@@ -2,6 +2,20 @@ When would you want to use a remote repository rather than keeping all your work
   
   A remote repository would be helpful if I was collaborating with other developers or if I simply wanted my repository to be accessible from multiple devices. 
 
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+  I may be working on a feature that is not yet complete and could be buggy. Therefore I don't want to interrupt other developers work by introducing bugs until I have had time to complete the feature.
+
+Describe differences between forks, clones, and branches. When would you use one instead of another?
+
+  Fork: this is a concept that exists only on GitHub. It clones a repository directly on GitHub's servers but gives credit to where the original repository came from.
+  Clone: Cloning a repository involves a local version is some way, either by cloning a repository from GitHub onto my local machine, or by creating a clone of a repository that already exists on my local machine. 
+  Branch: Branching doesn't necessarily copy the whole repository but instead creates a new version of it. The branch repository and master repository are the same up to the point that the branch was created, and then each commit after that is added only to the branch and not to master (or vice versa). 
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+  This gives me the ability to work offline for a while and avoid as many conflicts as possible before merging when I am back online.
+
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 	I would probably try to use a cloud-based tool for me and my collaborators to work on at the same time. It would be much harder to manage because working offline on a repository probably wouldn't be possible. It would also be irritating if 2 people were trying to work on the exact same part of the code at the same time. 
